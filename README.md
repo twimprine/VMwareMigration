@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# VMware Migration
 
-You can use the [editor on GitHub](https://github.com/twimprine/VMwareMigration/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Important Notes
+- Know what you are doing and test! Don't use this and mess something up. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/twimprine/VMwareMigration/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Environment & Usage
+This script was created to provide a relatively simple and automated method to migrate from an older VMware cluster to a new shiny VMware cluster that was just installed. We are moving from IBM hardware with fibre channel storage to a VMware cluster on Dell vSAN ready nodes managed by the SDDC suite. (https://www.vmware.com/solutions/software-defined-datacenter/in-depth.html) Specificaly the Virtual Cloud Foundataion suite - We were (unwittingly) the ~40th production installation of this suite of tools and have been very pleased. 
